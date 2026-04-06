@@ -1,0 +1,15 @@
+serverAddr: 143.20.156.143
+serverPort: 2333
+user: 4cf12d3fbdbcf434e88c5a67ff704509
+auth:
+  token: PEtvKOccZmOXrzdL
+proxies:
+- name: HomeAssistant
+  type: tcp
+  localIp: 127.0.0.1
+  localPort: 8123
+  remotePort: 23435
+  transport:
+    useEncryption: false
+    useCompression: false
+    proxyProtocolVersion: null
